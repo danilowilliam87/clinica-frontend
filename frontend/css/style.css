@@ -1,0 +1,42 @@
+.container{
+    border-style: solid;
+    border-color: aqua;
+    width: 100vw;
+    height: 100vh;
+    display: flex;   /*permite criar um layout flexivel*/
+    flex-direction: row;/*itend dispostos horizontalmente*/
+    justify-content: center;/*colocamos os itens no centro da linha*/
+    align-items: center;/*alinha os itens centralizados na vertical*/
+    background: #6C7A89;
+    
+}
+
+.form-login{
+    width: 280px;
+    height: 350px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-color: blue;
+    border-width: 20px;
+}
+
+.container .form-login .botao{
+    background-color:deepskyblue;
+    padding: 15px;
+    padding-left: 72px;
+    padding-right: 72px;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.container .form-login .input{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.container .form-login .imgLogin{
+    padding: 2px;
+}
