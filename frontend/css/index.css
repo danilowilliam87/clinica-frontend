@@ -1,0 +1,41 @@
+.container{
+    background-color: #6c7A89;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container .salvarConsulta{
+    
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.container .listarConsulta{
+  
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.container .cancelarConsulta{
+  
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.container .pesquisarConsulta{
+  
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.rodape{
+    background-color: black;
+    height: 30px;
+}
