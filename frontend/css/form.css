@@ -1,5 +1,5 @@
 .container .formulario .form{
-  background-color:darkgray;
+  
   width: 1000px;
   padding: 10px;
   margin: 10px;
@@ -31,6 +31,44 @@ button{
     border-style: unset;
     
 }
+
+header{
+  padding: 10px;
+  font-weight: bolder;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: flex-end;
+}
+
+header a {
+  margin: 10px;
+  font-size: larger;
+}
+
+
+
+body{
+  background-color: darkgray;
+}
+
+footer{
+  background-color: black;
+  height: 50px;
+}
+
+.icone{
+  width: 40px;
+}
+
+.logo{
+  width: 100px;
+  height: 60px;
+  margin-right: 700px;
+}
+
+
 
 
 
